@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Image Gallery</title>
+        <link rel="stylesheet" href="styles/layout.css">
+    </head>
+    <body>
+        <h1>Snapshots</h1>
+        <ul>
+            <li>
+                <a href="images/blackhole.png" title="A blackhole" onclick="showPic(this);return false;">Blackhole</a>
+            </li>
+            <li>
+                <a href="images/OnePlus9R.jpg" title="OnePlus9R"onclick="showPic(this);return false;">OnePlus 9R</a>
+            </li>
+            <li>
+                <a href="images/qrcode.png" title="QRCode"onclick="showPic(this);return false;">QR Code</a>
+            </li>
+        </ul>
+        <img id="placeholder" src="images/Placeholder.png" alt="my image gallery">
+        <p id="description">Choose an image.</p>
+        <script src="scripts/showPic.js"></script>
+    </body>
+</html>
